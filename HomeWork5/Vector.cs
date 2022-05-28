@@ -328,8 +328,8 @@ namespace Vector
             void heapify(int[] arr, int n, int i)
             {
                 int largest = i;
-                int l = 2 * i + 1; // left = 2*i + 1
-                int r = 2 * i + 2; // right = 2*i + 2
+                int l = 2 * i + 1; 
+                int r = 2 * i + 2; 
 
                 if (l < n && arr[l] > arr[largest])
                     largest = l;
@@ -357,7 +357,7 @@ namespace Vector
 
             public static void Main()
             {
-                int[] arr = { 12, 11, 13, 5, 6, 7 };
+                int[] arr = { 15, 18, 13, 3, 6, 8 };
                 int n = arr.Length;
 
                 HeapSort ob = new HeapSort();
